@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.fondo{
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.fondo1{
+    background: linear-gradient(0deg, rgb(13, 20, 59), rgb(59, 7, 7));
+}
+
+.fondo2{
+    background: linear-gradient(0deg, rgb(58, 199, 48), rgb(12, 83, 24));
+}
+
+.fondo3{
+    background: linear-gradient(0deg, rgb(48, 113, 199), rgb(12, 13, 83));
+}
+
+.fondo4{
+    background: linear-gradient(0deg, rgb(199, 48, 149), rgb(83, 12, 30));
+}
+
+.fondo5{
+    background: linear-gradient(0deg, rgb(255, 86, 86), rgb(112, 0, 0));
+}
+
+.fondo6{
+    background: linear-gradient(0deg, rgb(202, 167, 12), rgb(121, 5, 5));
+}
+
+.separador{
+    height: 1px;
+    background-image: radial-gradient(circle, rgb(255, 255, 255) 0%, transparent);
+    margin-bottom: 25px;
+}
+
+.titulo{
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.boton { 
+    width: 400px;
+    display: block;
+    padding: 10px 0px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: all 380ms;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+    box-shadow: 0px 20px 5px -15px rgba(0, 0, 0, 0.3);
+}
+
+.btn { 
+    display: block;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    transition: all 380ms;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+    background-color: rgb(255, 196, 0);
+    box-shadow: 0px 20px 5px -15px rgba(0, 0, 0, 0.3);
+}
+
+.btn1{
+    background: linear-gradient(50deg, rgb(58, 199, 48), rgb(12, 83, 24));
+    color: white;
+}
+
+.btn1:hover{
+    color:white;
+}
+
+.btn2{
+    background: linear-gradient(50deg, rgb(48, 113, 199), rgb(12, 13, 83));
+    color: white;
+}
+
+.btn2:hover{
+    color:white;
+}
+
+.btn3{
+    background: linear-gradient(50deg, rgb(199, 48, 149), rgb(83, 12, 30));
+    color: white;
+}
+
+.btn3:hover{
+    color:white;
+}
+
+.btn4{
+    background: linear-gradient(50deg, rgb(255, 86, 86), rgb(112, 0, 0));
+    color: white;
+}
+
+.btn4:hover{
+    color:white;
+}
+
+.btn5{
+    background: linear-gradient(50deg, rgb(202, 167, 12), rgb(121, 5, 5));
+    color: white;
+}
+
+.btn5:hover{
+    color: white;
+}
+
+.volver{
+    position: fixed;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: all 400ms;
+}
+
+.volver:hover{
+    background-color: rgba(255, 255, 255, .7);
+    color: black;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0px 20px 5px -15px rgba(0, 0, 0, 0.3);
+}
+
+.resultado-texto{
+    background-color: rgba(0, 0, 0, .6);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.resultado-texto-sub{
+    position: relative;
+    font-size: 11px;
+    color: white;
+    top: 3px;
+    font-weight: 500;
+}
+
+.campo{
+    width: 86%;
+    background: rgba(255, 255, 255, .3);
+    border: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.variable{
+    position: relative;
+    color: white;
+    width: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    top: 3px;
+}
+
+.sub{
+    position: relative;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    top: 5px;
+}
+
+.texto{
+    color: white;
+}
+
+.img-formula{
+    max-height: 150px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, .7);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}

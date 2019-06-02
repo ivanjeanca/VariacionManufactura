@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fórmula 3</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="fondo fondo4">
+        <a href="../index.html" class="volver">⮜</a>
+        <br>
+        <div class="container">
+            <h1 class="display-4 titulo">Fórmula 3</h1>
+            <hr class="separador">
+            <div class="row">
+                <div class="container-fluid text-center">
+                    <h3 class="display-4 titulo">Fórmula</h3>
+                    <br>
+                    <img src="../images/tiempodeciclo.png" alt="Formula" class="img-fluid img-formula">
+                </div>
+            </div>
+            <br>
+            <hr class="separador">
+            <h3 class="titulo display-4">Resolver</h3>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="variable lead">ρ</label>
+                    <input type="text" id="ro" class="campo">
+                    <label class="variable lead">c</label>
+                    <input type="text" id="c" class="campo">
+                    <label class="variable lead">P<small class="sub">0</small></label>
+                    <input type="text" id="p0" class="campo">
+                    <button class="btn lead" onclick="tiempoDeCiclo()">Resolver</button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="lead resultado-texto" id="res">Ingresa los datos correspondientes para calcular con base en la fórmula planteada.</p>
+                </div>
+            </div>
+            <br>
+        </div>
+    
+        <!-- Scripts -->
+        <script src="../js/funcionesMatematicas.js"></script>
+        <script src="../js/metodosResolucion.js"></script>
+</body>
+</html>
