@@ -14,3 +14,15 @@ function factorial(numero){
     }
     return res;
 }
+
+function promedio(arreglo){
+    var arr = arreglo;
+    var suma = 0
+
+    for (let i = 0; i < arr.length; i++) 
+        suma += arr[i]
+
+    suma = suma / arr.length
+
+    return suma;
+}

@@ -33,6 +33,10 @@
     background: linear-gradient(0deg, rgb(202, 167, 12), rgb(121, 5, 5));
 }
 
+.fondo7{
+    background: linear-gradient(0deg, rgb(125, 212, 118), rgb(12, 72, 83));
+}
+
 .separador{
     height: 1px;
     background-image: radial-gradient(circle, rgb(255, 255, 255) 0%, transparent);
@@ -44,6 +48,13 @@
     text-align: center;
     color: whitesmoke;
     font-size: 40px;
+}
+
+.subtitulo{
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
 }
 
 .boton { 
@@ -176,18 +187,31 @@
 }
 
 .campo{
-    width: 86%;
+    width: 100%;
     background: rgba(255, 255, 255, .3);
     border: 1px solid rgba(255, 255, 255, .7);
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
+    -moz-appearance: textfield;
+    appearance: textfield;
 }
+
+.campo::-webkit-inner-spin-button, 
+.campo::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
+.campo-tabla{
+    width: 99%;
+    margin: 2px;
+}
+
 
 .variable{
     position: relative;
     color: white;
-    width: 40px;
     font-size: 25px;
     font-weight: 400;
     top: 3px;
@@ -210,4 +234,16 @@
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, .7);
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.matriz{
+    width: 100%;
+}
+
+.campoTSC{
+    width: 81%;
+}
+
+.variableTSC{
+    width: 40px;
 }

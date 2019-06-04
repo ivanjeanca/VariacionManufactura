@@ -4,32 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Variación de Manufactura</title>
+    <title>Sistema M/M/C</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="fondo fondo1">
+<body class="fondo fondo7">
     <div class="container">
-        <br>
-        <h1 class="display-4 titulo">Variación de Manufactura</h1>
+        <h1 class="display-4 titulo">Sistema M/M/C</h1>
+        <p class="lead texto text-center">Partiendo del supuesto de que se tiene un sistema M/M/C...</p>
+        <p class="texto lead text-center">
+            <strong>Desarrollado por: </strong><br>
+            Chable Salinas Francisco de Jesús • 
+            Contreras Córdoba Jesús • 
+            Fernández Conde Tania
+        </p>  
         <hr class="separador">
-        <a href="resolver/tiempodeciclo.html" class="boton btn1 lead">Tiempo de ciclo</a>
-        <a href="resolver/formula2.html" class="boton btn2 lead">Formula 2</a>
-        <a href="resolver/formula3.html" class="boton btn3 lead">Formula 3</a>
-        <a href="resolver/formula4.html" class="boton btn4 lead">Formula 4</a>
-        <a href="resolver/formula5.html" class="boton btn5 lead">Formula 5</a>
-        <br>
-        <hr class="separador">
-        <h1 class="display-4 titulo">Equipo</h1>
-        <div class="text-center">
-            <p class="texto lead">
-                Tania Fernández Conde <br>
-                Otro <br>
-                Otro x2
-            </p>    
+        <div class="row">
+            <div class="col-md-12">
+                <label class="variable lead">Número de Estaciones</label>
+                <input type="number" id="estaciones" class="campo" min="2"><button class="btn lead" onclick="generar()">Generar</button>
+                <div id="datos"></div>
+            </div>
         </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="lead resultado-texto" id="res">Ingresa el numero de estaciones para continuar, después da click en <strong><em>Generar.</em></strong></p>
+            </div>
+        </div>
+        <br><br>
     </div>
+
+    <!-- Scripts -->
+    <script src="../js/funcionesMatematicas.js"></script>
+    <script src="../js/metodosResolucion.js"></script>
 </body>
 </html>
